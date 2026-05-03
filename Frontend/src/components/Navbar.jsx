@@ -71,8 +71,9 @@ const Navbar = () => {
               <div className="flex items-center justify-center">
                 <img src={logo} className="w-20 h-20" alt="Kisan Saathi Logo" />
               </div>
+              {/* <span className="text-2xl font-bold text-gray-800">Next Gen</span> */}
               <span className="text-2xl font-bold text-gray-800">
-                Kisan Setu
+                Kisan Saathi
               </span>
             </Link>
           </div>

@@ -54,10 +54,11 @@ const Footer = () => {
                 <img
                   src={logo}
                   className=" w-16 h-16"
-                  alt="Kisan Saathi Logo"></img>
+                  alt="Kisan Saathi Logo"
+                ></img>
               </div>
               <span className="text-2xl text-white font-semibold">
-                Kisan Setu
+                Kisan Saathi
               </span>
             </Link>
             <p className="text-slate-300 mb-6 leading-relaxed">
@@ -74,7 +75,8 @@ const Footer = () => {
                     whileHover={{ scale: 1.1, y: -2 }}
                     whileTap={{ scale: 0.95 }}
                     className="w-12 h-12 bg-slate-700 hover:bg-slate-600 rounded-full flex items-center justify-center text-white transition-all duration-300 shadow-lg hover:shadow-xl"
-                    aria-label={social.name}>
+                    aria-label={social.name}
+                  >
                     <Icon className="w-6 h-6" />
                   </motion.a>
                 );
@@ -90,7 +92,8 @@ const Footer = () => {
                 <li key={link.name}>
                   <Link
                     to={link.href}
-                    className="text-slate-300 hover:text-sky-300 transition-colors duration-200">
+                    className="text-slate-300 hover:text-sky-300 transition-colors duration-200"
+                  >
                     {link.name}
                   </Link>
                 </li>
@@ -106,7 +109,8 @@ const Footer = () => {
                 <li key={link.name}>
                   <Link
                     to={link.href}
-                    className="text-slate-300 hover:text-teal-300 transition-colors duration-200">
+                    className="text-slate-300 hover:text-teal-300 transition-colors duration-200"
+                  >
                     {link.name}
                   </Link>
                 </li>
@@ -147,7 +151,8 @@ const Footer = () => {
                 <Link
                   key={link.name}
                   to={link.href}
-                  className="text-sm text-slate-400 hover:text-sky-300 transition-colors duration-200">
+                  className="text-sm text-slate-400 hover:text-sky-300 transition-colors duration-200"
+                >
                   {link.name}
                 </Link>
               ))}

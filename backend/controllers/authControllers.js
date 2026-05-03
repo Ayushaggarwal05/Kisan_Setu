@@ -5,7 +5,7 @@ const User = require("../models/userModel");
 
 //generating Token
 const generateWebToken = (userId) => {
-  return jwt.sign({ id:userId }, process.env.JWT_SECRET, {
+  return jwt.sign({ id: userId }, process.env.JWT_SECRET, {
     expiresIn: "7d",
   });
 };
@@ -99,5 +99,5 @@ const getProfile = async (req, res) => {
     console.error(error);
     return res.status(500).json({ message: "Server error" });
   }
-}
-module.exports={signup,login,getProfile}
+};
+module.exports = { signup, login, getProfile };

@@ -210,8 +210,13 @@ const HomePage = () => {
           <div className="text-center max-w-6xl mx-auto">
             <h2 className="text-3xl md:text-7xl font-bold text-header mb-4">
               <span className="text-[#ffffff] drop-shadow-lg">Welcome to</span>{" "}
-              <span className="bg-amber-500 bg-clip-text text-transparent drop-shadow-lg">
-                Kisan Setu
+              {/* <span className="bg-amber-500 bg-clip-text text-transparent drop-shadow-lg"> */}
+              {/* <span className="bg-green-700 bg-clip-text text-transparent drop-shadow-lg"> */}
+              {/* <span className="bg-gradient-to-r from-green-800 to-emerald-600 bg-clip-text text-transparent drop-shadow-lg">
+                Next Gen
+              </span> */}
+              <span className="bg-gradient-to-r from-green-800 to-emerald-600 bg-clip-text text-transparent drop-shadow-lg">
+                Kisan Saathi
               </span>
             </h2>
             <p className="text-xl md:text-3xl mb-12 text-green-100 drop-shadow-md max-w-4xl mx-auto">
